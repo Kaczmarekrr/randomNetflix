@@ -10,6 +10,8 @@ Wklejanie i szukanie napisane jest na system Windows.
 Wymagania:
 Pandas
 Directkeys https://gist.github.com/Aniruddha-Tapas/1627257344780e5429b10bc92eb2f52a
+
+źródło CSV: https://www.kaggle.com/shivamb/netflix-shows
   
 W wersji 0.11 działanie programu wygląda następująco. 
 Randomuje tytuł z podanej kategorii, kopije do schowka. Następnie wkleja i naciska enter.
