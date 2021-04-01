@@ -1,13 +1,15 @@
 # randomNetflix
 Random title generator for Netflix with copy-paste function
 
+Eng desc. in future.
+
 Generator będzie działać wszędzie,
 Wklejanie i szukanie napisane jest na system Windows.
 
 
 Wymagania: <dopisz>
   
-W wersji 0.1 działanie programu wygląda następująco. 
+W wersji 0.11 działanie programu wygląda następująco. 
 Należy otworzyć w dowolnej przeglądarce Netflix.
 Po skompilowaniu kodu kliknąć w wyszukiwarkę na Netflix, nic więcej nie robić.
 Program wyrandomuje tytuł z podanego w kodzie rodzaju, następnie skopiuje do schowka i wklei zawartość do okna szukania.
