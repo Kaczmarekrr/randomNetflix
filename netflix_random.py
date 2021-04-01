@@ -111,8 +111,9 @@ def copy2clip(txt):
     
 netflix_df = pd.read_csv("netflix_titles.csv")
 
-typ = ["Horror Movies", "International Movies"]
+typ = ["Horror Movies", "International Movies","Dramas", "Romance"] #etc, do zrobienia aby była pełna lista
 
+#filtracja danych
 
 filtered_data = netflix_df.loc[
     lambda netflix_df: netflix_df.listed_in.apply(
@@ -123,7 +124,7 @@ filtered_data = netflix_df.loc[
 
 
 lista = filtered_data.values.tolist()
-
+#wybieranie tytułu
 
 random_num = np.random.randint(0,len(lista))
 random_title = lista[random_num][2]
@@ -131,12 +132,15 @@ random_type = lista[random_num][1]
 print(random_title,random_type)
 
 
-
+#printowanie 
 name = random_title
 copy2clip(name)
 print(f'twój {random_type} to', name)
 time.sleep(3)
 print('wklejam!')
+
+# Wklejanie do wyszukiwarki
+
 PressKey(0x11)
 PressKey(0x56)
 time.sleep(0.1)
